@@ -4,9 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_hawao.mk
-
-COMMON_LUNCH_CHOICES := \
-     aosp_hawao-user \
-     aosp_hawao-userdebug \
-     aosp_hawao-eng
+    $(LOCAL_DIR)/infinity_hawao.mk
