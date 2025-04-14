@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: 2022-2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2022-2024 The infinity Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -10,18 +10,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/hawao/device.mk)
 
-# Inherit some common PixelOs stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# Quick Tap
- TARGET_SUPPORTS_QUICK_TAP := true
+# Inherit some common infinity stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_hawao
+PRODUCT_NAME := infinity_hawao
 PRODUCT_DEVICE := hawao
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g42
 PRODUCT_MANUFACTURER := motorola
+
+# Maintainer Name
+ INFINITY_MAINTAINER := "Helloisnotadevsadly"
+
+# infinity_x Flags
+ TARGET_BOOT_ANIMATION_RES := 1080
+ TARGET_ENABLE_BLUR := false 
+ TARGET_HAS_UDFPS := false
+ WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
