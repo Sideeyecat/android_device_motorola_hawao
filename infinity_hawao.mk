@@ -29,6 +29,15 @@ PRODUCT_MANUFACTURER := motorola
  TARGET_HAS_UDFPS := false
  WITH_GAPPS := true
 
+# Whether the compiled package ships Complete present Google Apps:
+ TARGET_SHIPS_FULL_GAPPS := true 
+
+# Whether the compiled shipped gapps package uses Google Dialer, Messaging, Contacts:
+ TARGET_BUILD_GOOGLE_TELEPHONY := true
+
+ # Whether the compiled package ships Moto Calculator irrespective VANILLA or GAPPS:
+ USE_MOTO_CALCULATOR := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
