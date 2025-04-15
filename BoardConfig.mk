@@ -57,3 +57,6 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 2
 
 # Inherit from the proprietary version
 include vendor/motorola/hawao/BoardConfigVendor.mk
+
+# gapps
+ifneq ($(WITH_GAPPS),true)
