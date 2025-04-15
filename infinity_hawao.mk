@@ -29,6 +29,9 @@ PRODUCT_MANUFACTURER := motorola
  TARGET_HAS_UDFPS := false
  WITH_GAPPS := true
 
+# Quick Tap
+ TARGET_SUPPORTS_QUICK_TAP := true
+
 # Whether the compiled package ships Complete present Google Apps:
  TARGET_SHIPS_FULL_GAPPS := true 
 
