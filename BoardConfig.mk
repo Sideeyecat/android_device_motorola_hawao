@@ -61,3 +61,4 @@ include vendor/motorola/hawao/BoardConfigVendor.mk
 
 # gapps
 ifneq ($(WITH_GAPPS),true)
+endif
