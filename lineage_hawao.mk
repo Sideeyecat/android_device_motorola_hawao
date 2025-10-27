@@ -13,6 +13,13 @@ $(call inherit-product, device/motorola/hawao/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Build
+  MISTOS_MAINTAINER := helloisnotadevsadly
+  WITH_GMS := true
+  BYPASS_CHARGE_SUPPORTED := true
+  TARGET_DEFAULT_PIXEL_LAUNCHER := true
+  TARGET_ENABLE_BLUR := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_hawao
 PRODUCT_DEVICE := hawao
