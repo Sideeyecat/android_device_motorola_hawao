@@ -1,0 +1,9 @@
+# MistOS props
+ro.mist.display=1080 x 2400, 90Hz
+ro.mist.battery=5000mAh
+ro.mist.soc=Snapdragon® 680
+ro.mist.camera=50MP + 8MP + 2MP
+ro.mist.front=16MP
+ro.mist.platform=SM6225
+ro.mist.screen=6.4' AMOLED
+ro.mist.device.name=Moto G42
