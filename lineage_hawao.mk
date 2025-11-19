@@ -13,6 +13,9 @@ $(call inherit-product, device/motorola/hawao/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit from AviumUI configs.
+-include device/motorola/hawao/avium_hawao.mk
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_hawao
 PRODUCT_DEVICE := hawao
