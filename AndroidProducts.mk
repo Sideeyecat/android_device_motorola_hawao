@@ -4,4 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hawao.mk
+    $(LOCAL_DIR)/halcyon_hawao.mk
+
+COMMON_LUNCH_CHOICES := \
+    halcyon_hawao-user \
+    halcyon_hawao-userdebug \
+    halcyon_hawao-eng
